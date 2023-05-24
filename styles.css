@@ -1,0 +1,57 @@
+h1 {
+    font-family: Roboto;
+sans-serif;
+font-size: 30px;
+color: blueviolet;
+}
+
+
+h2 {
+    font-size:30px;
+    color: blueviolet;
+}
+
+.container {
+    margin-left: 80px;
+    display: inline;
+}
+
+#photo {
+    border: 3px solid #FFD700;
+}
+
+
+
+.header  {
+width: 100%;
+padding: 15px 0;
+
+text-align: center;
+font-size: 24px;
+font-weight: 300;
+color: gray;
+}
+
+ .header__logo {
+    color:inherit;
+    text-decoration: none;
+ }
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1230px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.hero__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px,1fr));
+
+}
